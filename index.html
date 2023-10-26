@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazza Icecreams</title>
+    <link rel="icon" href="img/icon.png" type="image/gif" sizes="9x9">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="contaier-fluid bg-black fixed-top mynavbar">
+            <div class="row">
+              <div class="col-md-3">
+                <a class="navbar-brand ms-5" href="https://lazza.co.in/" target="main">
+                  <img src="img/logo (1).png" alt="Logo" width="100" height="75" class="d-inline-block align-text-top">
+                </a>
+              </div>
+             
+                <div class=" col-md-7 pt-3 ">
+                  <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                      
+                      <button class="navbar-toggler bg-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li>
+                            <a class="nav-link active text-white " href="#">HOME</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" target="main" href="https://lazza.co.in/products">PRODUCTS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" target="main" href="https://lazza.co.in/offers">OFFERS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" target="main" href="https://lazza.co.in/aboutus">ABOUT US</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white " target="main" href="https://lazza.co.in/contactus">CONTACT US</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  
+                    </div>
+
+                      
+                    <div class="mynav-button col-md-2 text-center  pt-4 fs-1 "> 
+                      <button type="button" class="btn position-relative text-warning">
+                        <i class="fa-solid fa-magnifying-glass  "></i>  
+                      </button>
+                      <button type="button" class="btn text-warning  position-relative">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border-none rounded-circle">
+                          
+                          <span class="visually-hidden"></span>
+                          0
+                        </span>
+                      </button>
+                      <button  type="button" onclick="toggleMenu()" class="btn position-relative text-warning">
+                        <i class="fa-regular fa-user"></i>
+                      </button>
+                    </div>
+            </div>
+            <div class="sub-menu-wrap" id="subMenu">
+              <div class="sub-menu">
+                <div class="login-form">
+                  <form >
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" onclick="alert('Successfully Completed  your  Login')" class="btn btn-primary">Login UP</button>
+                  </form>
+         
+                </div>
+              </div>
+            </div>
+                
+                      
+               
+          </div>
+          
+          
+           
+          
+    </header>
+    <!--Header end-->
+    
+    <main>
+      <div class="whaticon position-fixed rounded-circle">
+            <img src="img/whatsapp icon.png" alt="" style="height: 50px;">
+      </div>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/image 2.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!--Product Section-->
+        <div class="container" id="products">
+            <h1 class="product-head mt-5  text-center ">WIDE RANGE OF OUR PRODUCTS</h1>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card text-center border-0 text-uppercase" style="width: 25rem;">
+                    <img src="img/first_row_first_icecream-removebg-preview.png" class=" img1 card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title  ">Sugar Free</h5>
+                      
+                    </div>
+                  </div>
+                </div> 
+            <div class="col-md-4">
+                <div class="card text-center border-0 text-uppercase" style="width: 25rem;">
+                <img src="img/first_row_second_icevream-removebg-preview.png" class=" img1 card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title  ">BASIC SERIES</h5>
+                  
+                </div>
+              </div>
+            </div> 
+            <div class="col-md-4">
+                <div class="card text-center border-0 text-uppercase" style="width: 25rem;">
+                <img src="img/first_row_third_icecream-removebg-preview.png" class=" img1 card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title ">INDULGENCE SERIES</h5>
+                  
+                </div>
+              </div>
+            </div> 
+            <br>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card text-center border-0 text-uppercase" style="width: 25rem;">
+                    <img src="img/second_row_image_1-removebg-preview.png" class=" img1 card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title  ">PREMIUM SERIES</h5>
+                      
+                    </div>
+                  </div>
+                </div > 
+            <div class="col-md-4">
+                <div class="card text-center border-0 text-uppercase" style="width: 25rem;">
+                <img src="img/second_row_image_2-removebg-preview.png" class=" img1 card-img-top" alt="...">
+                <div class="card-body ">
+                  <h5 class="card-title  ">ETHNIC SERIES</h5>
+                  
+                </div>
+              </div>
+            </div> 
+            <div class="col-md-4">
+                <div class="card text-center border-0 text-uppercase" style="width: 25rem;">
+                <img src="img/second_row_image_3-removebg-preview.png" class=" img1 card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title ">NATURAL SERIES</h5>
+                  
+                </div>
+              </div>
+            </div> 
+             </div> 
+             <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card text-center border-0 text-uppercase" style="width: 25rem;">
+                    <img src="img/third_row_image_1-removebg-preview.png" class=" img1 card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title  ">BOUTIQUE SERIES</h5>
+                      
+                    </div>
+                  </div>
+                </div > 
+             </div>
+            
+
+            </div> 
+          </main>        
+            <img class="yellow-image " src="img/yello image.jpeg">
+    <!--main end-->
+    <!--footer started-->
+    <footer>
+      <div class="container-fluid bg-black">
+        <div class="row text-warning pt-4">
+          <div class="col-md-2">
+            <img src="img/simons logo.png" alt="" style="width: 75%;">
+          </div>
+          <div class="col-md-2">
+            <h4> HELP</h4>
+            <p class="footer-text">
+              Track Your Order<br>
+              Chat with Us<br>
+              Support
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h4>ABOUT US</h4>
+            <p class="footer-text">
+              Our History<br>
+              Privacy Policy<br>
+              Cancellation Policy<br>
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h4>PRODUCTS</h4>
+            <p class="footer-text">
+              Our Products<br>
+              Offers<br>
+              About Us<br>
+              Want to be a Distributor?<br>
+              Contact Us
+            </p>
+          </div>
+          <div class="col-md-2">
+            <h4>CONTACT US</h4>
+            <p class="footer-text">
+              9946037777<br>
+
+              support@lazza.co.in<br>
+              <div class="social-icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+            </p>
+          </div>
+          <div class="col-md-2 ">
+            <img src="img/footer_logo.png" class="w-75">
+          </div>
+        </div>
+        <hr class="text-white">
+        <div class="text-warning fs-6">
+          <p >© Lazza Ice Creams - 2022</p>
+        </div>
+        
+        
+      </div>
+    </footer>
+   
+
+
+
+    <!--Bootstarp js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+      let subMenu = document.getElementById("subMenu");
+
+      function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+
+      }
+    </script>
+</body>
+</html
